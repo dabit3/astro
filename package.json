@@ -1,0 +1,21 @@
+{
+  "name": "astro",
+  "type": "module",
+  "main": "dist/entry",
+  "version": "0.0.1",
+  "scripts": {
+    "ampt:dev": "astro dev --experimental-integrations --experimental-ssr",
+    "ampt:build": "astro build --experimental-integrations --experimental-ssr"
+  },
+  "ampt": {
+    "org": "",
+    "app": "astro"
+  },
+  "devDependencies": {
+    "@ampt/astro": "^0.0.1-beta.4",
+    "astro": "^2.10.14"
+  },
+  "files": [
+    "*"
+  ]
+}
